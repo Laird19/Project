@@ -1,0 +1,102 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #dbeaff, #e6f7ff); /* Soft blue gradient */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #0047ab; /* Deep blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background: #1e90ff; /* Light blue */
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+}
+
+.header-content h3,
+.header-content h4 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 15px;
+    color: #0047ab; /* Matches theme */
+}
+
+.container img.campus-pic {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+    background: #0047ab;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #87cefa; /* Sky blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
