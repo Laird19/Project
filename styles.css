@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #dbeaff, #e6f7ff); /* Soft blue gradient */
     color: #333;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 header {
@@ -26,14 +26,14 @@ header {
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    padding: 8px 15px;
+    padding: 10px 20px;
     transition: background 0.3s ease;
     border-radius: 5px;
 }
@@ -43,12 +43,13 @@ header {
 }
 
 .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .header-content h3,
 .header-content h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 5px 0;
 }
 
@@ -63,8 +64,8 @@ main {
 
 .container {
     background: #fff;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 25px;
     width: 90%;
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -72,8 +73,9 @@ main {
 }
 
 .container h2 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #0047ab; /* Matches theme */
+    font-size: 2rem;
 }
 
 .container img.campus-pic {
@@ -82,6 +84,32 @@ main {
     border-radius: 10px;
     margin-bottom: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container img.interest-pic {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #444;
+}
+
+.container ul {
+    list-style-type: disc;
+    margin: 15px 0 0 20px;
+    text-align: left;
+}
+
+.container ul li {
+    margin: 10px 0;
+    font-size: 1rem;
 }
 
 /* Footer styling */
@@ -95,6 +123,7 @@ footer {
 footer a {
     color: #87cefa; /* Sky blue */
     text-decoration: none;
+    font-size: 1rem;
 }
 
 footer a:hover {
