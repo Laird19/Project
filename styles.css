@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    background: linear-gradient(to bottom, #00aaff, #0088cc); /* Sky/Jet blue background */
     color: #333;
     line-height: 1.8;
 }
@@ -148,48 +148,15 @@ main {
     font-size: 1rem;
 }
 
-/* Menu page image styling */
-.menu-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.menu-item {
-    background: #f9f9f9;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: center;
-    padding: 15px;
-}
-
-.menu-item h3 {
-    margin-bottom: 10px;
-    color: #004080;
-}
-
-.menu-item p {
-    color: #444;
-    font-size: 1rem;
-    margin-top: 10px;
-}
-
-/* Styling for images */
-.menu-item-image {
+/* Restaurant image styling */
+.campus-pic {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    margin-bottom: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.menu-item-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    height: auto; /* Make sure the height is responsive */
+    max-height: 400px; /* Limit max height */
+    object-fit: cover; /* Keep the aspect ratio */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    margin-top: 15px; /* Add space from top content */
 }
 
 /* Footer styling */
