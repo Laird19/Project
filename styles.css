@@ -199,19 +199,21 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Center the footer content */
     align-items: center;
-    padding: 15px 20px;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    margin: 0;
+    margin: 5px 0;
 }
 
 footer .footer-links {
+    margin-top: 10px;
     display: flex;
-    gap: 15px;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center;
+    gap: 10px;
 }
 
 footer a {
