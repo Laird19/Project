@@ -6,15 +6,15 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Changed to a more modern font */
-    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2); /* Updated gradient */
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
     color: #333;
     line-height: 1.8;
 }
 
 /* Header styling */
 header {
-    background: #004080; /* Deep blue for the header */
+    background: #004080;
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -50,7 +50,7 @@ header {
 /* Hero Section */
 .hero {
     background: url('path/to/your/image.jpg') center/cover no-repeat;
-    height: 50vh;
+    height: 50vh; /* Adjusted height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,12 +69,12 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Adds a subtle dark overlay */
+    background: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem; /* Adjusted font size */
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff;
@@ -93,7 +93,7 @@ header {
 /* Home Page Title Box */
 .title-box {
     background: #ffffff;
-    border: 3px solid #004080; /* Sleek border */
+    border: 3px solid #004080;
     border-radius: 15px;
     padding: 20px;
     margin: 30px auto;
@@ -179,8 +179,8 @@ main {
 /* Styling for images */
 .menu-item-image {
     width: 100%;
-    height: 250px; /* Fixed height for uniform cropping */
-    object-fit: cover; /* Ensures images are cropped uniformly */
+    height: 250px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     margin-bottom: 15px;
@@ -190,6 +190,38 @@ main {
 .menu-item-image:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer styling */
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+footer a {
+    color: #87cefa;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* Media queries */
