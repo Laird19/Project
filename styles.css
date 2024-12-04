@@ -178,21 +178,23 @@ main {
 }
 
 .menu-item img {
-    max-width: 100%; /* Ensure images are responsive */
+    width: 100%; /* Fit to container */
     height: auto; /* Maintain aspect ratio */
-    object-fit: cover;
+    object-fit: cover; /* Crop image appropriately */
     border-radius: 5px;
+    border: 2px solid #f8d36b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* About Us Image */
+/* About Us Page image styling */
 .about-us-image {
-    max-width: 80%;
-    height: auto; /* Ensure aspect ratio */
-    margin: 20px auto;
+    width: 80%; /* Fits the image to 80% of its container */
+    height: auto; /* Maintains aspect ratio */
     display: block;
-    border: 2px solid #f8d36b; /* Gold border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 20px auto;
+    border: 2px solid #f8d36b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer styling */
