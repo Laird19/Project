@@ -178,23 +178,42 @@ main {
 }
 
 .menu-item img {
-    width: 100%; /* Fit to container */
+    max-width: 100%; /* Ensure images are responsive */
     height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Crop image appropriately */
+    object-fit: cover;
     border-radius: 5px;
     border: 2px solid #f8d36b;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* About Us Page image styling */
+/* About Us page image */
 .about-us-image {
-    width: 80%; /* Fits the image to 80% of its container */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 80%;
+    height: auto;
     display: block;
     margin: 20px auto;
     border: 2px solid #f8d36b;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Our History page image */
+.our-history-image {
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #f8d36b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Our Team page employee names */
+.employee-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8d36b;
+    margin-top: 10px;
 }
 
 /* Footer styling */
@@ -203,9 +222,6 @@ footer {
     color: #f8d36b;
     text-align: center;
     padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
