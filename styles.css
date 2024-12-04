@@ -184,16 +184,14 @@ main {
     border-radius: 5px;
 }
 
-/* About Us Image */
 .about-us-image {
-    max-width: 80%;
-    height: auto; /* Ensure aspect ratio */
-    margin: 20px auto;
-    display: block;
-    border: 2px solid #f8d36b; /* Gold border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-}
+    max-width: 80%; /* Limits the image to 80% of its container's width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Centers the image */
+    margin: 20px auto; /* Adds spacing and centers */
+    border: 2px solid #f8d36b; /* Adds a gold border for a sleek look */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 
 /* Footer styling */
 footer {
