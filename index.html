@@ -14,18 +14,43 @@
             background-size: 150px 150px; /* Adjust size of the lobster outlines */
         }
 
-        .hero h1 {
+        /* Hero Section Styling */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero-title-container {
+            background-color: black; /* Solid black background */
+            padding: 20px;
+            display: inline-block; /* Adjust size to content */
+            margin: auto;
+        }
+
+        .hero-title {
             font-size: 3rem;
             font-weight: bold;
-            background: linear-gradient(to bottom, #b8860b, #ffd700);
+            background: linear-gradient(90deg, gold, lightgoldenrodyellow);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+            animation: glow-effect 3s infinite alternate;
+            text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 223, 0, 0.6);
         }
 
         .hero p {
             font-size: 1.5rem;
             color: #333;
+            margin-top: 20px;
+        }
+
+        /* Animation for glowing effect */
+        @keyframes glow-effect {
+            from {
+                text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 223, 0, 0.6);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(255, 255, 0, 1), 0 0 30px rgba(255, 223, 0, 0.9);
+            }
         }
     </style>
 </head>
@@ -43,7 +68,9 @@
 
     <main>
         <section class="hero">
-            <h1>Welcome to Laird's Lobsters</h1>
+            <div class="hero-title-container">
+                <h1 class="hero-title">Welcome to Laird's Lobsters</h1>
+            </div>
             <p>Experience the finest seafood and warm hospitality by the coast.</p>
         </section>
 
