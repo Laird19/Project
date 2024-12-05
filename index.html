@@ -8,17 +8,17 @@
     <style>
         /* Body background with lobster outlines */
         body {
-            background-color: #f2f2f2; /* Keep the existing background color */
-            background-image: url('lobster-outline.png'); /* Replace with the path to your lobster outline image */
+            background-color: #f2f2f2; /* Existing background color */
+            background-image: url('lobster-outline.png'); /* Replace with your lobster outline image */
             background-repeat: repeat; /* Tiling effect */
             background-size: 150px 150px; /* Adjust size of the lobster outlines */
         }
 
         .hero {
-            background-color: #e0e0e0; /* The previous gray used for other boxes */
+            background-color: #333; /* Darker gray for the hero section */
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             text-align: center;
         }
 
@@ -33,15 +33,42 @@
 
         .hero p {
             font-size: 1.5rem;
-            color: #333;
+            color: #fff; /* White text for better contrast */
         }
 
         .container {
-            background-color: #e0e0e0; /* The previous gray used for the boxes */
+            background-color: #444; /* Dark gray for containers */
             padding: 20px;
             margin: 20px auto;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ddd; /* Light gray text for readability */
+        }
+
+        .container h2 {
+            color: #f0f0f0; /* Light color for headings */
+        }
+
+        ul li {
+            color: #bbb; /* Slightly lighter gray for list items */
+        }
+
+        footer {
+            background-color: #333; /* Same dark gray as hero */
+            color: #ccc; /* Light gray for footer text */
+            padding: 10px 20px;
+            text-align: center;
+            border-top: 2px solid #444; /* Subtle border for footer */
+        }
+
+        .social-links a {
+            color: #bbb; /* Light gray for social links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .social-links a:hover {
+            color: #fff; /* Hover effect to brighten */
         }
     </style>
 </head>
