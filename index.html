@@ -16,20 +16,15 @@
 
         /* Hero Section Styling */
         .hero {
+            background-color: black; /* Solid black background for the entire hero section */
+            color: white; /* Base text color */
             text-align: center;
             padding: 50px 20px;
+            margin: 0 auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Adds depth to blend into the background */
         }
 
-        .hero-title-container {
-            background-color: black; /* Solid black background */
-            padding: 20px;
-            display: inline-block; /* Adjust size to content */
-            margin: auto;
-        }
-
-        .hero-title {
-            font-size: 3rem;
-            font-weight: bold;
+        .hero h1, .hero p {
             background: linear-gradient(90deg, gold, lightgoldenrodyellow);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -37,13 +32,17 @@
             text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 223, 0, 0.6);
         }
 
-        .hero p {
-            font-size: 1.5rem;
-            color: #333;
-            margin-top: 20px;
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
 
-        /* Animation for glowing effect */
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        /* Animation for glowing text */
         @keyframes glow-effect {
             from {
                 text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 223, 0, 0.6);
@@ -68,9 +67,7 @@
 
     <main>
         <section class="hero">
-            <div class="hero-title-container">
-                <h1 class="hero-title">Welcome to Laird's Lobsters</h1>
-            </div>
+            <h1>Welcome to Laird's Lobsters</h1>
             <p>Experience the finest seafood and warm hospitality by the coast.</p>
         </section>
 
