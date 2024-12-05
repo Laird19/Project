@@ -14,42 +14,26 @@
             background-size: 150px 150px; /* Adjust size of the lobster outlines */
         }
 
-        /* Hero Section Styling */
         .hero {
-            background-color: black; /* Solid black background for the entire hero section */
-            color: white; /* Base text color */
-            text-align: center;
-            padding: 50px 20px;
-            margin: 0 auto;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Adds depth to blend into the background */
-        }
-
-        .hero h1, .hero p {
-            background: linear-gradient(90deg, gold, lightgoldenrodyellow);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: glow-effect 3s infinite alternate;
-            text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 223, 0, 0.6);
+            background-color: #000; /* Solid black background */
+            padding: 20px; /* Add padding to make it look like a box */
+            border-radius: 10px; /* Optional: to make the corners rounded */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow for depth */
+            text-align: center; /* Center text */
         }
 
         .hero h1 {
             font-size: 3rem;
             font-weight: bold;
-            margin-bottom: 20px;
+            background: linear-gradient(to bottom, #b8860b, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
         }
 
         .hero p {
             font-size: 1.5rem;
-        }
-
-        /* Animation for glowing text */
-        @keyframes glow-effect {
-            from {
-                text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 223, 0, 0.6);
-            }
-            to {
-                text-shadow: 0 0 20px rgba(255, 255, 0, 1), 0 0 30px rgba(255, 223, 0, 0.9);
-            }
+            color: #fff; /* White text to contrast with the black background */
         }
     </style>
 </head>
